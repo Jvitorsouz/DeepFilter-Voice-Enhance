@@ -18,10 +18,15 @@ Certifique-se de ter o Python 3.10 instalado.
 ### 2. Instalação
 Clone o repositório e instale as dependências:
 
-```bash
+```
 # Crie e ative o ambiente virtual
 python3.10 -m venv venv
 source venv/bin/activate 
 
 # Instale as bibliotecas necessárias
-pip install -r requirements.txt
+pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+
+# Para execultar o script
+python3 src/script.py
+```
+Use seus próprios áudios para mais resultados!
