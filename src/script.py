@@ -8,6 +8,6 @@ audio, info = load_audio(audio_path, sr=df_state.sr())
 
 enhanced_audio = enhance(model, df_state, audio)
 
-save_audio("../audio/audio_limpo.wav", enhanced_audio, df_state.sr())
+save_audio("./audio/audio_limpo.wav", enhanced_audio, df_state.sr())
 
 print("Processamento concluído com sucesso!")

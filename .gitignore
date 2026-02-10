@@ -12,6 +12,8 @@ dist/
 .cache/
 checkpoints/
 
+audio/
+
 
 # IDEs
 .vscode/
